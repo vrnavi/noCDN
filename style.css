@@ -1,6 +1,6 @@
 body {
-	background: #151515 ;
-	color: navajowhite ;
+	background: #000000 ;
+	color: #FFFFFF ;
 	max-width: 850px ;
 	margin: auto ;
 	padding: 0 16px ;
@@ -19,7 +19,7 @@ body {
 }
 
 a {
-	color: gold ;
+	color: blue ;
 	text-decoration: none ;
 }
 
@@ -38,11 +38,11 @@ a {
 }
 
 a:visited {
-	color: darkgoldenrod ;
+	color: navy ;
 }
 
 a:hover {
-	color: beige ;
+	color: cyan ;
 	text-decoration: underline;
 }
 
@@ -53,7 +53,7 @@ h1 {
 }
 
 h2 {
-	color: tomato ;
+	color: gray ;
 	text-align: center ;
 }
 
