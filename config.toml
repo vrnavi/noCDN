@@ -1,0 +1,15 @@
+baseURL = 'https://nocdn.rip/'
+languageCode = 'en-us'
+title = 'noCDN'
+theme = 'lugo'
+
+[params]
+  favicon = "/favicon.ico"
+  stylesheet = "/style.css"
+  indexarticles = 50
+  taglist = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

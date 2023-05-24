@@ -1,0 +1,26 @@
+name: 🪦 Report a dead link
+description: Tell us if a link doesn't work anymore.
+body:
+  - type: markdown
+    attributes:
+      value: "## Thank you!"
+  - type: markdown
+    attributes:
+      value: |
+        This will guide you in reporting a link for noCDN.
+  - type: input
+    id: url
+    attributes:
+      label: Please give us the file URL.
+      description: This should be a **direct** link.
+      placeholder: https://media.discordapp.net/attachments/800499651504504844/1110802420591775795/ssstwitter.com_1684886167790.mp4
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Please give us a link to the page.
+      description: This should be a link to the page on noCDN.
+      placeholder: https://nocdn.rip/nocdn/
+    validations:
+      required: true

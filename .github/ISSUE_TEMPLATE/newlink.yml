@@ -1,0 +1,59 @@
+name: 📡 Add a new link
+description: Submit a new file to be linked to.
+body:
+  - type: markdown
+    attributes:
+      value: "## Thank you!"
+  - type: markdown
+    attributes:
+      value: |
+        This will guide you in creating a proper submission for noCDN.
+  - type: dropdown
+    id: location
+    attributes:
+      label: Where is the file hosted?
+      options:
+        - Discord
+        - Elsewhere
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Please give us the file URL.
+      description: This should be a **direct** link.
+      placeholder: https://media.discordapp.net/attachments/800499651504504844/1110802420591775795/ssstwitter.com_1684886167790.mp4
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Please give us the location name.
+      description: For Discord, use the server's name. For elsewhere, use the name of
+        the location.
+      placeholder: My Fancy Mod
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Please give us a link to the location.
+      description: This should be a link to the server or page you got it from, if we
+        can access it.
+      placeholder: https://discord.gg/oneshot
+    validations:
+      required: false
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: "Please acknowledge the following:"
+      description: You must select all to submit.
+      options:
+        - label: I am not submitting copyrighted material.
+          required: true
+        - label: I am not submitting pirated material.
+          required: true
+        - label: I am not submitting paywalled material.
+          required: true
+        - label: I am not submitting malicious material.
+          required: true
