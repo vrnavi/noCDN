@@ -17,6 +17,7 @@ All submissions to noCDN must abide by the following rules:
 2. No pirated material.
 3. No paywalled material.
 4. No malicious material.
+5. No material already hosted elsewhere.
 
 ## How to request a takedown
 

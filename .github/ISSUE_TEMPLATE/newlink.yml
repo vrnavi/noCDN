@@ -57,3 +57,5 @@ body:
           required: true
         - label: I am not submitting malicious material.
           required: true
+        - label: I am not submitting material already hosted elsewhere.
+          required: true
