@@ -38,11 +38,10 @@ body:
     id: link
     attributes:
       label: Please give us a link to the location.
-      description: This should be a link to the server or page you got it from, if we
-        can access it.
+      description: This should be a link to the server or page you got it from.
       placeholder: https://discord.gg/oneshot
     validations:
-      required: false
+      required: true
   - type: checkboxes
     id: acknowledgements
     attributes:
